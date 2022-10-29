@@ -2,7 +2,7 @@
 
 Example library of Flutter web bridge to communicate with mobile app through WebView.
 
-Flutter mobile implementation: https://github.com/tentenponce/flutter_mobile_bridge
+Flutter mobile implementation and demo: https://github.com/tentenponce/flutter_mobile_bridge
 
 ### Quick technical summary
 
