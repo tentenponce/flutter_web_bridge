@@ -1,16 +1,10 @@
-# flutter_web
+# flutter_web_bridge
 
-A new Flutter project.
+Example library of Flutter Web Bridge to communicate with mobile app through WebView.
 
-## Getting Started
+This is an implementation on Flutter Web.
 
-This project is a starting point for a Flutter application.
+### Quick technical summary
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Receive events from mobile (webview) by adding a custom event listener(s) on `window`.
+- Trigger events on mobile (webview) through javascript channels. Mobile webview **must** register this channels.
